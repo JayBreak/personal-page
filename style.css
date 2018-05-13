@@ -7,6 +7,11 @@ a:hover {
      color:rgba(277,250, 32, 1);
 }
 
+body {
+     background-color: rgba(230, 230, 230, 1);
+     margin:0;
+}
+
 .title{
      text-align: center;
      font-size: 40px;
@@ -54,4 +59,32 @@ a:hover {
      padding: 20px;
      height: 100%;
 
+}
+
+.blogPosts {
+     margin: 50px 10%;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.post {
+
+     background-color: rgba(255, 255, 255, 1);
+     margin: 10px;
+     padding: 20px;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 4px;
+     font-family:  'Russo One', sans-serif;
+     font-weight: 100;
+}
+
+.titlePost {
+     color: rgba(53,148,210,1);
+     font-family: 'Russo One', sans-serif;
+     font-weight: lighter;
+}
+
+.active {
+
+     border-bottom: 3px solid rgba(53,148,210,1);
 }
