@@ -3,16 +3,46 @@
 <html>
      <title>Eslinger's Code Blog </title>
 
-     <h1> Jakob Eslinger's Code Blog</h1>
+     <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 
-     <a href="index.html"> Home </a>
+     <script src="index.js" charset="utf-8" defer></script>
+
+     <link rel="stylesheet" href="style.css" media="screen">
+
+     <h1 class = "title"> Jakob Eslinger's Code Blog</h1>
+
+     <nav class="navbar">
+          <ul class = "navlist">
+               <li class = "navitem "><a href="index.html"> Home </a></li>
+               <li class = "navitem active"><a href="blog.html">Code Blog</a></li>
+               <li class = "navitem navright"><a href="https://www.instagram.com/_eslinger_/">Instagram</a></li>
+               <li class = "navitem navright"><a href="https://www.youtube.com/channel/UCwjR2YPTSKWow5tSvapoi5A">YouTube</a></li>
+               <li class = "navitem navright"><a href="blog.html">Test 3</a></li>
+
+          </ul>
+     </nav>
+
+
 
      <body>
-          <h3>Assignment #1  (4/9/2018)</h3>
-          <p>I had some basic HTML skills from previously teaching myself, so i foudn this assignment very easy. I just used the review from class and was able to quickly build this site. One issue i ran into was sizing the image without the use of CSS. I ended up having to edit it outside so that it was the right orientation and then set the height in the image tag. </p>
+          <article class = "blogPosts">
 
-          <h3> Assignment #2 (4/23/2018)</h3>
-          <p>I ran into trouble with flex boxes while trying to make the website dynamic. Getting these boxes to size equally and in a way took some experimenting. Another issue was with the icon in the twit itself. I ended up making the height of the icon 100% so that the text didnt wrap underneath it. I learned how to adjust boarders, margins, and padding. I ended up using w3schools.com as a refrences for a lot of command variables. I knew a lot about structuring divs but i didnt know the diffrences between classes and ID's. Overall i enjoyed the assignment and learned a lot about styling pages. </p>
+               <div class = "post">
+                         <h3 class = "titlePost">Assignment #1  (4/9/2018)</h3>
+                         <p class = "postText">I had some basic HTML skills from previously teaching myself, so i foudn this assignment very easy. I just used the review from class and was able to quickly build this site. One issue i ran into was sizing the image without the use of CSS. I ended up having to edit it outside so that it was the right orientation and then set the height in the image tag. </p>
+               </div>
+
+               <div class = "post">
+                         <h3 class = "titlePost"> Assignment #2 (4/23/2018)</h3>
+                         <p class = "postText">I ran into trouble with flex boxes while trying to make the website dynamic. Getting these boxes to size equally and in a way took some experimenting. Another issue was with the icon in the twit itself. I ended up making the height of the icon 100% so that the text didnt wrap underneath it. I learned how to adjust boarders, margins, and padding. I ended up using w3schools.com as a refrences for a lot of command variables. I knew a lot about structuring divs but i didnt know the diffrences between classes and ID's. Overall i enjoyed the assignment and learned a lot about styling pages. </p>
+               </div>
+
+               <div class = "post">
+                         <h3 class = "titlePost"> Assignment #3 (5/12/2018)</h3>
+                         <p class = "postText"> This was my first time writing JavaScript. I found JavaScript much easier to write than C/C++. Many funcitons were easier to write than I had anticipated due to the flexibility of the language. Writing a functions to post was very straight foraward, but the most time consuming. I had to create a function that would build the twit structure one element at a time. Creating a system to search through all twits was the heartest. I looked thorugh W3schools.com and found documentation on how to access chiltren of elements. After that I just looped through all the twits everytime the user enters a new character into the seach bar. </p>
+               </div>
+
+          </article>
      </body>
 
 

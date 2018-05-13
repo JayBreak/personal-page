@@ -7,6 +7,11 @@ a:hover {
      color:rgba(277,250, 32, 1);
 }
 
+body {
+     background-color: rgba(230, 230, 230, 1);
+     margin:0;
+}
+
 .title{
      text-align: center;
      font-size: 40px;
@@ -25,6 +30,10 @@ a:hover {
 
 }
 
+.navright {
+     //float: right;
+}
+
 .navlist {
      padding: 0px;
      margin: 0px;
@@ -38,16 +47,68 @@ a:hover {
      padding-bottom: 15px;
 }
 
+
+.cards {
+     margin: 50px 10%;
+
+     flex-wrap: wrap;
+}
+
 .profilecard{
      border: 2px solid rgba(0,0,0,1);
+     border-radius: 3px;
      margin: 10px;
      display: flex;
-
+     background-color: rgba(255, 255, 255, 1);
+     font-family:  'Russo One', sans-serif;
 
 }
 
-.profile  {
-     padding: 20px;
-     height: 100%;
+.subTitle {
+     font-size: 25px;
+     margin: 0px;
+     margin-top: 15px;
+     color:  rgba(53,148,210,1);
+}
 
+.cardText
+{
+     //display:flex;
+     flex-wrap: wrap;
+}
+
+.profile  {
+     margin: 20px;
+     height: 100%;
+     border: 3px solid rgb(0, 0, 0);
+     border-radius: 3px;
+
+}
+
+.blogPosts {
+     margin: 50px 10%;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.post {
+
+     background-color: rgba(255, 255, 255, 1);
+     margin: 10px;
+     padding: 20px;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 4px;
+     font-family:  'Russo One', sans-serif;
+     font-weight: 100;
+}
+
+.titlePost {
+     color: rgba(53,148,210,1);
+     font-family: 'Russo One', sans-serif;
+     font-weight: lighter;
+}
+
+.active {
+
+     border-bottom: 3px solid rgba(53,148,210,1);
 }
